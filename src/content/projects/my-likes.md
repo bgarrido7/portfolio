@@ -22,6 +22,8 @@ It’s a simple place where I can store everything I love—books, video games, 
 
 It’s not trying to replace those big, specific platforms. It just connects everything in a way that makes sense for me. I can keep track of what I’ve experienced, organize it however I want, and always have my favorites ready—whether I’m recommending something or just revisiting things I love.
 
+And on a personal note, this project was also my excuse to finally try Vue.js for the first time. It gave me a way to build something meaningful while exploring a new framework and learning as I went.
+
 Basically, it’s my personal media space.
 
 And now you can see it too.
