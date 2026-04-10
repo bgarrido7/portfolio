@@ -6,12 +6,36 @@ order: 3
 heroImage: '../../assets/blog-placeholder-3.jpg'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+[view game here]([https://bgarrido7.github.io/my-likes/](https://bgarrido7.github.io/PokemonAdvantages/))
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+## About
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+I’ve been playing Pokémon since I was a teen.
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+And when I first got into it, it honestly felt like rock-paper-scissors… but on steroids. You start simple—Fire, Water, Grass—but then it just keeps expanding. Electric, Ground, Psychic, Dark, Fairy… suddenly there are 18 different types, all interacting with each other in ways that actually matter a lot in battle.
+
+<img width="840" height="900" alt="image" src="https://github.com/user-attachments/assets/e32dbfb0-39d5-41ea-b21f-6f186ef9e5a3" />
+
+
+At some point, I remember finding this small, simple game. Nothing fancy—just a way to pick two types and see which one would win. No story, no battles—just pure type matchups.
+
+But what really made it stick was the gamification of it.
+
+It didn’t feel like studying or memorizing anything. I was just playing, testing myself, getting things right (and wrong), and trying again. And somehow, without even realizing it, I ended up memorizing every single type advantage. It turned something that could’ve been overwhelming into something intuitive and fun.
+
+Eventually, I tried to find that game again…
+
+…and I couldn’t.
+
+So I decided to recreate it.
+
+This app is my version of that simple idea: a clean, focused way to explore Pokémon type matchups. No unnecessary complexity—just pick types, test interactions, and learn naturally as you go. Whether you’re just starting out or trying to master the full type chart (like the one from Pokémon Database), it’s all about making that learning process feel effortless and engaging.
+
+And on a personal note, this project was also my first real dive into AngularJS. It started as a small idea, but it became a way for me to experiment, learn, and build something from scratch while recreating a piece of nostalgia I couldn’t find anymore.
+
+It’s not trying to replace the games.
+
+It’s just bringing back that one small experience that made everything finally click.
+
+[1]: https://pokemondb.net/type "Pokémon types & type chart | pokemondb"
