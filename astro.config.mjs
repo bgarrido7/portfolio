@@ -7,6 +7,7 @@ import { defineConfig, fontProviders } from 'astro/config';
 export default defineConfig({
 	site: 'https://bgarrido7.github.io',
 	base: '/portfolio/',
+	trailingSlash: 'always',
 	integrations: [mdx(), sitemap()],
 	fonts: [
 		{
