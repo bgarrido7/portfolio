@@ -2,6 +2,8 @@ import { getCollection } from 'astro:content';
 import rss from '@astrojs/rss';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 
+const base = import.meta.env.BASE_URL;
+
 export async function GET(context) {
 	const posts = await getCollection('projects');
 	return rss({
@@ -10,7 +12,7 @@ export async function GET(context) {
 		site: context.site,
 		items: posts.map((post) => ({
 			...post.data,
-			link: `/projects/${post.id}/`,
+			link: `${base}projects/${post.id}/`,
 		})),
 	});
 }
