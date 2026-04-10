@@ -3,10 +3,8 @@ title: 'CSS Battle'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: '2022'
 order: 4
-heroImage: '../../assets/blog-placeholder-2.jpg'
+heroImage: '../../assets/blog-placeholder-5.jpg'
 ---
-
-## About
 
 
 CSSBattle is a daily(ish) coding challenge where you try to recreate visual targets using the smallest and most efficient amount of CSS possible. It’s all about precision, creativity, and sometimes completely abusing CSS in ways it was probably never intended for.
@@ -27,4 +25,10 @@ It’s one of those things I genuinely enjoy coming back to, because it constant
 
 ---
 
+### References
+
+
 [CSSBattle](https://cssbattle.dev)
+
+[Github Repo](https://github.com/bgarrido7/CSSBattle)
+

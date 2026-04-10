@@ -4,12 +4,8 @@ description: 'Lorem ipsum dolor sit amet'
 pubDate: '2021'
 order: 3
 heroImage: '../../assets/blog-placeholder-3.jpg'
+site: https://bgarrido7.github.io/PokemonAdvantages/
 ---
-
-[view game here]([https://bgarrido7.github.io/my-likes/](https://bgarrido7.github.io/PokemonAdvantages/)
-
-
-## About
 
 I’ve been playing Pokémon since I was a teen.
 
@@ -38,4 +34,10 @@ It’s not trying to replace the games.
 
 It’s just bringing back that one small experience that made everything finally click.
 
-[1]: https://pokemondb.net/type "Pokémon types & type chart | pokemondb"
+---
+
+### References
+
+["Pokémon types & type chart" | pokemondb](https://pokemondb.net/type)
+
+[Github Repo](https://github.com/bgarrido7/PokemonAdvantages)

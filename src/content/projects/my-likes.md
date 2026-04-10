@@ -4,11 +4,10 @@ description: 'Here is a sample of some basic Markdown syntax that can be used wh
 pubDate: '2025'
 order: 1
 heroImage: '../../assets/blog-placeholder-1.jpg'
+site: https://bgarrido7.github.io/my-likes
+
 ---
 
-[view website here](https://bgarrido7.github.io/my-likes/)
-
-## About
 
 Have you ever been asked to recommend a movie and suddenly forgotten every single one you’ve ever seen?
 
@@ -28,3 +27,6 @@ Basically, it’s my personal media space.
 
 And now you can see it too.
 
+## References
+
+[Github Repo](https://github.com/bgarrido7/my-likes)
