@@ -6,7 +6,7 @@ order: 3
 heroImage: '../../assets/blog-placeholder-3.jpg'
 ---
 
-[view game here]([https://bgarrido7.github.io/my-likes/](https://bgarrido7.github.io/PokemonAdvantages/))
+[view game here]([https://bgarrido7.github.io/my-likes/](https://bgarrido7.github.io/PokemonAdvantages/)
 
 
 ## About
