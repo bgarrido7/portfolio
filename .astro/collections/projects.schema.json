@@ -22,6 +22,9 @@
     "heroImage": {
       "type": "string"
     },
+    "site": {
+      "type": "string"
+    },
     "$schema": {
       "type": "string"
     }
