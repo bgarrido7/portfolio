@@ -1,0 +1,9 @@
+
+import __ASTRO_IMAGE_IMPORT_Z2qcLYQ from "../../assets/blog-placeholder-1.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fprojects%2Fmy-likes.md";
+import __ASTRO_IMAGE_IMPORT_f4QJ1 from "../../assets/blog-placeholder-2.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fprojects%2Fcss-battle.md";
+import __ASTRO_IMAGE_IMPORT_osFlL from "../../assets/blog-placeholder-3.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fprojects%2Fpokemon-adventures.md";
+import __ASTRO_IMAGE_IMPORT_Z1PYjLv from "../../assets/blog-placeholder-4.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fprojects%2Fadvent-code.md";
+import __ASTRO_IMAGE_IMPORT_ZwWYAj from "../../assets/blog-placeholder-5.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fprojects%2Foscars.mdx";
+import __ASTRO_IMAGE_IMPORT_1hDjiD from "../../assets/blog-placeholder-about.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fprojects%2Fmy-likes.md";
+export default new Map([["../../assets/blog-placeholder-1.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fprojects%2Fmy-likes.md", __ASTRO_IMAGE_IMPORT_Z2qcLYQ], ["../../assets/blog-placeholder-2.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fprojects%2Fcss-battle.md", __ASTRO_IMAGE_IMPORT_f4QJ1], ["../../assets/blog-placeholder-3.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fprojects%2Fpokemon-adventures.md", __ASTRO_IMAGE_IMPORT_osFlL], ["../../assets/blog-placeholder-4.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fprojects%2Fadvent-code.md", __ASTRO_IMAGE_IMPORT_Z1PYjLv], ["../../assets/blog-placeholder-5.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fprojects%2Foscars.mdx", __ASTRO_IMAGE_IMPORT_ZwWYAj], ["../../assets/blog-placeholder-about.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fprojects%2Fmy-likes.md", __ASTRO_IMAGE_IMPORT_1hDjiD]]);
+		

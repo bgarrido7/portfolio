@@ -1,0 +1,45 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+.astro/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment variables
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# testing
+coverage/
+
+# lock files (optional — usually you WANT to keep one)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# temporary files
+tmp/
+temp/
+
+# vercel / netlify (if used)
+.vercel/
+.netlify/
+
+# typescript
+*.tsbuildinfo
