@@ -1,5 +1,5 @@
 :root {
-	--accent: #2337ff;
+	--accent: #3C7F9C;
 	--accent-dark: #000d8a;
 	--black: 15, 18, 25;
 	--gray: 96, 115, 159;
@@ -24,7 +24,7 @@ body {
 	line-height: 1.7;
 }
 main {
-	width: 720px;
+	width: 800px;
 	max-width: calc(100% - 2em);
 	margin: auto;
 	padding: 3em 1em;

@@ -1,0 +1,96 @@
+---
+import { skills } from "../data/skills";
+---
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="carousel-container">
+        <ul class="skills-list">
+            {
+                skills.map((skill) => (
+                    <li>{<skill.icon width={48} height={48} />}</li>
+                ))
+            }
+            {
+                skills.map((skill) => (
+                    <li>{<skill.icon width={48} height={48} />}</li>
+                ))
+            }
+        </ul>
+    </div>
+</section>
+
+<style>
+    #skills {
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        outline: 2.5px solid var(--accent);
+        border-radius: 7px;
+    }
+    h2 {
+        transform: translateY(-3.4rem);
+        background-color: #F9FAFB;
+        width: fit-content;
+        margin: 0px;
+        padding: 0.5rem 1rem;
+        color: ;
+    }
+    .carousel-container {
+        width: 100%;
+        overflow-x: hidden;
+        -webkit-mask-image: linear-gradient(
+            to right,
+            transparent 0%,
+            black 15%,
+            black 85%,
+            transparent 100%
+        );
+        mask-image: linear-gradient(
+            to right,
+            transparent 0%,
+            black 15%,
+            black 85%,
+            transparent 100%
+        );
+        .skills-list {
+            width: 100%;
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 2rem;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            animation: carousel 10s linear infinite forwards;
+
+            li {
+                border-radius: 5px;
+                font-size: 0.9em;
+                transition:
+                    transform 0.2s,
+                    color 0.2s;
+
+                &:hover {
+                    cursor: pointer;
+                    color: var(--primary-color);
+                    transform: scale(1.1);
+                }
+                svg {
+                    path {
+                        fill: black;
+                    }
+                }
+            }
+        }
+    }
+
+    @keyframes carousel {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-20rem);
+        }
+    }
+</style>

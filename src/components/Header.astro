@@ -2,7 +2,6 @@
 import { SITE_TITLE } from "../consts";
 import HeaderLink from "./HeaderLink.astro";
 const base = import.meta.env.BASE_URL;
-
 ---
 
 <header>
@@ -13,9 +12,9 @@ const base = import.meta.env.BASE_URL;
       <HeaderLink href={`${base}projects/`}>Projects</HeaderLink>
       <HeaderLink href={`${base}about/`}>About Me</HeaderLink>
     </div>
-    <div class="social-links">
+    <button class="social-links">
       <a href={"mailto:bianevesgarrido@gmail.com"}>Contact Me</a>
-    </div>
+    </button>
   </nav>
 </header>
 <style>
@@ -48,5 +47,15 @@ const base = import.meta.env.BASE_URL;
   nav a.active {
     text-decoration: none;
     border-bottom-color: var(--accent);
+  }
+
+  button {
+    width: fit-content;
+    font-size: large;
+    padding: 10px 10px;
+    /* background-color: blue; */
+    /* color: white; */
+    border-radius: 10px;
+    border: none;
   }
 </style>

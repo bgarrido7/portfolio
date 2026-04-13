@@ -1,0 +1,67 @@
+<section id="education">
+  <h2>Education</h2>
+  <ul class="timeline">
+    <li class="timeline-item">
+          <h3>
+          Faculdade de Engenharia da Universidade do Porto
+          </h3>
+          <span class="timeline-date">2015 - 2020</span>
+          <p>Master in Electrical and Computer Engineer</p>
+        </li>
+  </ul>
+</section>
+
+<style>
+  #education {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    .timeline {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      &:before {
+        content: "";
+        position: absolute;
+        left: 14px;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background-color: var(--primary-color);
+      }
+      .timeline-item {
+        position: relative;
+        margin-bottom: 20px;
+        padding-left: 40px;
+        &:before {
+          content: "";
+          position: absolute;
+          left: 10px;
+          top: 5px;
+          width: 10px;
+          height: 10px;
+          background-color: var(--primary-color);
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+  h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: var(--primary-color);
+  }
+  .timeline-date {
+    display: block;
+    font-size: 0.9em;
+    color: var(--text-color);
+    margin-bottom: 10px;
+    opacity: 0.7;
+  }
+  p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: var(--text-color);
+  }
+</style>
