@@ -40,7 +40,7 @@ const { title, description, image, link } = certificates;
         }
     }
     .card {
-        width: 40%;
+        width: 35%;
         display: flex;
         flex-direction: column;
         padding: 1rem;
@@ -70,6 +70,12 @@ const { title, description, image, link } = certificates;
         a {
             text-decoration: none;
             color: var(--primary-color);
+        }
+    }
+
+    @media (max-width: 640px) {
+        .card {
+            width: 13rem;
         }
     }
 </style>

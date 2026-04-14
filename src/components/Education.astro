@@ -1,14 +1,21 @@
+---
+const base = import.meta.env.BASE_URL;
+---
+
 <section id="education">
   <h2>Education</h2>
-  <ul class="timeline">
-    <li class="timeline-item">
-          <h3>
-          Faculdade de Engenharia da Universidade do Porto
-          </h3>
-          <span class="timeline-date">2015 - 2020</span>
-          <p>Master in Electrical and Computer Engineer</p>
-        </li>
-  </ul>
+  <div class="education-data">
+    <picture>
+      <img src={`${base}feup.svg`} alt="feup logo" width="50" height="50" />
+    </picture>
+    <ul class="college">
+      <li class="college-item">
+        <h3>Faculdade de Engenharia da Universidade do Porto</h3>
+        <span class="college-date">2015 - 2020</span>
+        <p>Master in Electrical and Computer Engineer</p>
+      </li>
+    </ul>
+  </div>
 </section>
 
 <style>
@@ -16,33 +23,18 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    .timeline {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      position: relative;
-      &:before {
-        content: "";
-        position: absolute;
-        left: 14px;
-        top: 0;
-        bottom: 0;
-        width: 2px;
-        background-color: var(--primary-color);
-      }
-      .timeline-item {
-        position: relative;
-        margin-bottom: 20px;
-        padding-left: 40px;
-        &:before {
-          content: "";
-          position: absolute;
-          left: 10px;
-          top: 5px;
-          width: 10px;
-          height: 10px;
-          background-color: var(--primary-color);
-          border-radius: 50%;
+    .education-data {
+      display:flex;
+      flex-direction:row;
+
+      .college {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        .college-item {
+          position: relative;
+          margin-bottom: 20px;
+          padding-left: 30px;
         }
       }
     }
@@ -52,7 +44,7 @@
     font-size: 1.2em;
     color: var(--primary-color);
   }
-  .timeline-date {
+  .college-date {
     display: block;
     font-size: 0.9em;
     color: var(--text-color);

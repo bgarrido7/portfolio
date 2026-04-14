@@ -15,12 +15,12 @@ export const experience = [
         company: 'Synopsys',
         position: 'IP Security',
         duration: 'Summer 2019',
-        responsibilities: 'Summer Intership',
+        responsibilities: 'Intership',
     },
     {
         company: 'INESC-TEC',
         position: 'Design and Prototyping in Electronics',
         duration: 'Summer 2018',
-        responsibilities: 'Summer Intership',
+        responsibilities: 'Intership',
     }
 ]
