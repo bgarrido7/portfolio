@@ -1,11 +1,12 @@
 ---
 import { aboutMe } from "../data/aboutMe";
+const base = import.meta.env.BASE_URL;
 ---
 
 <section id="personal">
     <picture class="personal-logo">
         <img
-            src={aboutMe.profile.picture}
+            src={`${base}${aboutMe.profile.picture}`}
             alt={aboutMe.profile.altText}
             width="200"
             height="200"
@@ -22,7 +23,7 @@ import { aboutMe } from "../data/aboutMe";
 <style>
     #personal {
         display: flex;
-        gap:33px;
+        gap: 33px;
         .personal-logo {
             width: 100%;
             max-width: 200px;
@@ -39,8 +40,8 @@ import { aboutMe } from "../data/aboutMe";
             display: flex;
             flex-direction: column;
             @media (max-width: 768px) {
-                align-items: center;
-                text-align: center;
+                align-items: start;
+                text-align: start;
             }
         }
 

@@ -11,7 +11,7 @@ export const aboutMe = {
   skills: ['JavaScript', 'TypeScript', 'React', 'Next.js', 'Angular', 'Git', 'Github Actions', 'Figma', 'Scrum', 'Graphql'],
   hobbies: ['Traveling', 'Cooking', 'Gaming', 'Bouldering'],
   profile: {
-    picture: '../../public/profile.png',
+    picture: 'profile.png',
     altText: "Bia's Profile Picture",
   },
   contact: {
