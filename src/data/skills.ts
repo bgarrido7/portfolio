@@ -12,6 +12,7 @@ import Vue from '../assets/icons/vue.svg';
 import Angular from '../assets/icons/angular.svg';
 import Git from '../assets/icons/git.svg';
 import Graphql from '../assets/icons/graphql.svg';
+import Shadcn from '../assets/icons/shadcn.svg';
 
 type Skill = {
   name: string;
@@ -51,6 +52,9 @@ export const skills = [
   },{
     name: 'Tailwind',
     icon: Tailwind,
+  },{
+    name: 'Shadcn',
+    icon: Shadcn,
   },{
     name: 'Python',
     icon: Python,
